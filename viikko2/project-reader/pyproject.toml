@@ -1,18 +1,13 @@
 [tool.poetry]
-name = "poetry-web"
+name = "project-reader"
 version = "0.1.0"
 description = ""
-authors = ["Saara Pasonen <saara.pasonen@helsinki.fi>"]
-readme = "README.md"
+authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-flask = "^3.0.3"
 toml = "^0.10.2"
 
-
-[tool.poetry.group.dev.dependencies]
-pytest = "^8.3.3"
 
 [build-system]
 requires = ["poetry-core"]
