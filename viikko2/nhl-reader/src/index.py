@@ -7,7 +7,7 @@ def main():
     console = Console()
 
     season = input("Syötä kausi (2018-19/2019-20/2020-21/2021-22/2022-23/2023-24/2024-25/): ")
-    nationality = input("Syötä kansalaisuus (FIN/AUT/CZE/AUS/SWE/GER/DEN/SUI/SVKNOR/RUS/CAN/LAT/BLR/SLO/USA/GBR/): ").upper()
+    nationality = input("Syötä kansalaisuus (FIN/AUT/CZE/AUS/SWE/GER/DEN/SUI/SVK/NOR/RUS/CAN/LAT/BLR/SLO/USA/GBR/): ").upper()
 
     url = f"https://studies.cs.helsinki.fi/nhlstats/{season}/players"
     reader = PlayerReader(url)
