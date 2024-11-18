@@ -17,6 +17,12 @@ Login With Incorrect Password
     Submit Credentials
     Login Should Fail With Message  Invalid username or password
 
+Login With Nonexistent Username
+    Set Username  nonexistent
+    Set Password  somepassword
+    Submit Credentials
+    Login Should Fail With Message  Non-existent username
+
 *** Keywords ***
 Login Should Succeed
     Main Page Should Be Open
